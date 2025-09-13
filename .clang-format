@@ -16,6 +16,9 @@ IndentWidth: 4
 BreakBeforeBraces: Linux
 AccessModifierOffset: -4
 ColumnLimit: 120
+AlignTrailingComments:
+  Kind: Always
+  OverEmptyLines: 0
 ForEachMacros:
   - foreach
   - Q_FOREACH
