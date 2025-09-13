@@ -1,6 +1,6 @@
 /*
  * proc_module.h
- * 
+ *
  * Linux kernel module 的標頭檔
  * 定義與 proc filesystem 相關的常數和設定
  * 用於建立 kernel space 和 user space 之間的通訊介面
@@ -22,7 +22,7 @@
  * 定義在 /proc 目錄下建立的虛擬檔案名稱
  * 完整路徑為 /proc/thread_info
  * 此檔案作為 kernel module 與 user space application 的溝通管道
- * 支援讀取（read）和寫入（write）操作來交換 thread 資訊
+ * 支援 read 和 write 操作來交換 thread 資訊
  */
 #define PROCFS_NAME "thread_info"
 
